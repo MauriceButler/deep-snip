@@ -1,0 +1,22 @@
+{
+  "name": "deep-snip",
+  "version": "1.0.0",
+  "description": "Snip long strings in nested objects for logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauriceButler/deep-snip.git"
+  },
+  "author": "Maurice Butler <maurice.butler@gmail.com> (http://maur.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/deep-snip/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/deep-snip#readme",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
