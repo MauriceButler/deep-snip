@@ -18,5 +18,18 @@
   "homepage": "https://github.com/MauriceButler/deep-snip#readme",
   "devDependencies": {
     "tape": "^4.8.0"
+  },
+  "keywords": [
+    "deep",
+    "snip",
+    "trim",
+    "string",
+    "text"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "tape": "^4.8.0"
   }
 }

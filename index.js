@@ -7,8 +7,8 @@ function deepSnip(data, length = 100) {
             deepSnip(data[key], length);
         }
 
-        if (type === 'string' && value.length > 100) {
-            data[key] = value.substring(0, 100);
+        if (type === 'string' && value.length > length) {
+            data[key] = value.substring(0, length);
         }
     }
 }

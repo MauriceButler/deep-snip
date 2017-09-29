@@ -18,6 +18,16 @@ test('snips simple', function (t) {
     t.equal(data.bar.length, 100, 'trimmed correctly');
 });
 
+test('snips with option length', function (t) {
+    t.plan(1);
+
+    var data = getData();
+
+    deepSnip(data, 7);
+
+    t.equal(data.bar.length, 7, 'trimmed correctly');
+});
+
 test('snips deep', function (t) {
     t.plan(2);
 
